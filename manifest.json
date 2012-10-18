@@ -1,8 +1,8 @@
 {
   "name": "Fixipedia",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "manifest_version": 2,
-  "description": "Add a SeeClickFix local issue map to any 'place' article on Wikipedia. Currently supports city, town, borough, & village.",
+  "description": "A simple Chrome extension that adds a SeeClickFix issue map to any 'place' article on Wikipedia.",
   "permissions": ["http://en.wikipedia.org/wiki/*"],
   "icons": {
 	"16": "icon_16.png",
