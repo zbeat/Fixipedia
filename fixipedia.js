@@ -1,4 +1,4 @@
-var lat, lng, mapWidget, thisGovType;
+var lat, lng, mapWidget, mapWidgetSrc, thisGovType;
 var supportedGovTypes = ['Federal district','State Capital','City and county','City','Borough','Town','Village','Hamlet','CDP','Ghost town','Unincorporated community'];
 $(document).ready(function(){
 	lat = $(".geo").html().split(';')[0];

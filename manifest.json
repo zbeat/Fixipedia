@@ -1,6 +1,6 @@
 {
   "name": "Fixipedia",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "manifest_version": 2,
   "description": "A simple Chrome extension that adds a SeeClickFix issue map to any 'place' article on Wikipedia.",
   "permissions": ["http://en.wikipedia.org/wiki/*"],
