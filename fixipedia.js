@@ -1,5 +1,6 @@
 var lat, lng, mapWidget, mapWidgetSrc, thisGovType;
-var supportedGovTypes = ['Federal district','State Capital','City and county','City','Borough','Town','Village','Hamlet','CDP','Ghost town','Unincorporated community'];
+var supportedGovTypes = ['Federal district','State Capital','City and county','City','Borough','Town','Village','Hamlet','CDP','Ghost town','Unincorporated community','Autonomous City'];
+//var supportedGovCats = ['Member states of the United Nations','Provinces and territories of Canada','States of the United States'];
 $(document).ready(function(){
 	lat = $(".geo").html().split(';')[0];
 	lng = $(".geo").html().split(';')[1];
